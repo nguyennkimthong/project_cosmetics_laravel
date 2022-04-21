@@ -1,4 +1,38 @@
-.nav .header_user_info .links {
-    right: 0;
+div.nav {
+    background-color: black;
+    font-size: 13px;
+    line-height: 33px;
+    position: relative;
+}
+
+.nav .contactnav span {
+    padding-right: 16px;
+    margin: 0 5px 0 90px;
+}
+
+.contactnav {
+    color: #fff;
+}
+
+i.fas.fa-envelope {
+    margin-right: 10px;
+}
+
+.header_user_info .e-scale {
+    float: right;
+}
+
+ul.links.list-unstyled {
+    position: absolute;
+    display: flex;
+    right: 5%;
     left: auto;
+}
+
+ul.links.list-unstyled li a {
+    color: #fff;
+    padding: 0 20px 0 10px;
+    border-left: 1px solid #fff;
+    text-transform: uppercase;
+
 }
