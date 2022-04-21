@@ -55,9 +55,52 @@
             </ul>
         </div>
     </div>
-    <!-- Tìm kiếm, giỏ hàng -->
-
-    <!-- Tên thương hiệu -->
+    <!-- Tìm kiếm, giỏ hàng , tên thương hiệu -->
+    <div class="header-main">
+        <div class="header-wrap">
+            <div class="header-left">
+                <div class="header_logo">
+                    <h1>
+                        <a href="#">
+                            <img src="images/image_title/YAPPUNI.png" alt="">
+                        </a>
+                    </h1>
+                </div>
+            </div>
+            <div class="header-right">
+                <div id="cart" class="blockcart_top clearfix">
+                    <div class="media heading">
+                        <a href="#" id="CartToggle" title="Giỏ hàng" >
+                            <div class="title-cart">
+                                <span class="fa fa-shopping-cart"></span>
+                            </div>
+                            <div class="cart-inner media-body">
+                                <span class="cart-title">Giỏ hàng</span>
+                                <span id="CartCount">0</span>
+                                <span>item - </span>
+                                <span id="CartCost">0đ</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div id="search_block_top">
+                    <span id="search-icon" class="fa fa-search" title="Tìm kiếm"></span>
+                    <div id="ap-ajax-search" class="hidden-sm hidden-xs">
+                        <ul class="list-unstyled aps-results" ></ul>
+                    </div>
+                </div>
+            </div>
+            <form id="searchbox" action="popup-content" action="#" method="get" role="form">
+                <input id="search_query_top" class="search_query form-control" type="search" name="q" value placeholder="Tìm kiếm..." aria-label="Tìm kiếm.." autocomplete="off">
+                <button id="search_button" class="btn btn-sm" type="submit" title="Tìm kiếm" >
+                    <span>
+                        <i class="fa fa-search"></i>
+                    </span>
+                    <span class="fallback-text">Tìm kiếm</span>
+                </button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -36,3 +36,10 @@ ul.links.list-unstyled li a {
     text-transform: uppercase;
 
 }
+.header-wrap .header-left .header_logo h1{
+    text-align: center;
+}
+
+.header-wrap .header-left .header_logo h1 img{
+    object-fit: contain;
+}
