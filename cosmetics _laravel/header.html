@@ -55,8 +55,8 @@
             </ul>
         </div>
     </div>
-    <!-- Tìm kiếm, giỏ hàng , tên thương hiệu -->
-    <div class="header-main">
+    <!-- Tên thương hiệu -->
+        <div class="header-main">
         <div class="header-wrap">
             <div class="header-left">
                 <div class="header_logo">
@@ -67,7 +67,9 @@
                     </h1>
                 </div>
             </div>
+            <!-- Tìm kiếm, giỏ hàng -->
             <div class="header-right">
+                <!-- Giỏ hàng -->
                 <div id="cart" class="blockcart_top clearfix">
                     <div class="media heading">
                         <a href="#" id="CartToggle" title="Giỏ hàng" >
@@ -83,6 +85,7 @@
                         </a>
                     </div>
                 </div>
+                <!-- Tìm kiếm -->
                 <div id="search_block_top">
                     <span id="search-icon" class="fa fa-search" title="Tìm kiếm"></span>
                     <div id="ap-ajax-search" class="hidden-sm hidden-xs">
@@ -90,17 +93,25 @@
                     </div>
                 </div>
             </div>
-            <form id="searchbox" action="popup-content" action="#" method="get" role="form">
+            <!-- <form id="searchbox" action="popup-content" action="#" method="get" role="form">
                 <input id="search_query_top" class="search_query form-control" type="search" name="q" value placeholder="Tìm kiếm..." aria-label="Tìm kiếm.." autocomplete="off">
-                <button id="search_button" class="btn btn-sm" type="submit" title="Tìm kiếm" >
+                <button id="search_button" class="btn btn-sm" type="submit" title="Tìm kiếm">
                     <span>
                         <i class="fa fa-search"></i>
                     </span>
                     <span class="fallback-text">Tìm kiếm</span>
                 </button>
-            </form>
+            </form> -->
+            <div class="wrapper">
+                <div class="search-box">
+                   <input type="text" placeholder="Search" class="input">
+                   <div class="btn">
+                     <i class="fa fa-search" aria-hidden="true"></i>
+                   </div>
+                </div>
+              </div>
         </div>
     </div>
+    <script src="js/header.js" ></script>
 </body>
-
 </html>
