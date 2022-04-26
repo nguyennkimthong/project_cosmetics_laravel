@@ -10,7 +10,7 @@
     <!-- Import file product_body.php -->
     <?php include_once "products_perfurm.php"; ?>
     <div class="container">
-    <div class="products mt-5 pb-5">
+    <div class="products mt-5 pb-5 border-bottom-0">
         <div class="container">
             <h4 class="title_products text-center font-weight-bold pb-4">PHỤ KIỆN</h4>
             <!-- Sản phẩm -->
