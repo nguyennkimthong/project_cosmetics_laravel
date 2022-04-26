@@ -13,6 +13,7 @@
 <body>
     <?php include_once "banner.php" ?>
     <!-- Sản phẩm hot -->
+    <div class="container">
     <div class="products mt-5 pb-5">
         <div class="container">
             <h4 class="title_products text-center font-weight-bold pb-4">SẢN PHẨM NỔI BẬT</h4>
@@ -157,6 +158,7 @@
             </div>
             <!-- Kết thúc sản phẩm -->
         </div>
+    </div>
     </div>
 </body>
 

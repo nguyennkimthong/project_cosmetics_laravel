@@ -9,9 +9,10 @@
 <body>
     <!-- Import file product_body.php -->
     <?php include_once "products_body.php"; ?>
+    <div class="container">
     <div class="products mt-5 pb-5">
         <div class="container">
-            <h4 class="title_products_new text-center font-weight-bold pb-4">NƯỚC HOA</h4>
+            <h4 class="title_products text-center font-weight-bold pb-4">NƯỚC HOA</h4>
             <!-- Sản phẩm -->
             <div class="products_item">
                 <div class="row">
@@ -78,6 +79,7 @@
             </div>
             <!-- Kết thúc sản phẩm -->
         </div>
+    </div>
     </div>
 </body>
 </html>

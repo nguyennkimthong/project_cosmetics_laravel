@@ -1,12 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banner</title>
+    <meta charset="utf-8">
+    <title>Slideshow</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/banner.css">
+    
 </head>
+
 <body>
     <?php include_once "header.php" ?>
+    <div class="fuild-container banner-container">
+        <div class="arrow arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
+        <img src="images/images_banner/image_banner_1.png"
+            alt="">
+        <img src="images/images_banner/image_banner_2.jpg"
+            alt="">
+        <div class="arrow arrow-right"><i class="fas fa-chevron-circle-right"></i>
+        </div>
+        <div class="dots">
+            <div class="dot">
+                <i class="far fa-dot-circle"></i>
+            </div>
+            <div class="dot">
+                <i class="far fa-circle"></i>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="banner.js"></script>
 </html>

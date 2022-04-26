@@ -10,9 +10,10 @@
     <!-- Import files porducts_new.php -->
     <?php include_once "products_skin.php" ?>
     <!-- Chăm sóc body -->
+    <div class="container">
     <div class="products mt-5 pb-5">
         <div class="container">
-            <h4 class="title_products_new text-center font-weight-bold pb-4">CHĂM SÓC TOÀN THÂN</h4>
+            <h4 class="title_products text-center font-weight-bold pb-4">CHĂM SÓC TOÀN THÂN</h4>
             <!-- Sản phẩm -->
             <div class="products_item">
                 <div class="row">
@@ -79,6 +80,7 @@
             </div>
             <!-- Kết thúc sản phẩm -->
         </div>
+    </div>
     </div>
 </body>
 </html>

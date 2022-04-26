@@ -12,9 +12,10 @@
     <!-- Import files products_hot.php -->
     <?php include_once "products_hot.php" ?>
     <!-- Sản phẩm new -->
-    <div class="products mt-5 pb-5">
+    <div class="container">
+    <div class="products mt-5 pb-5 border-bottom-0">
         <div class="container">
-            <h4 class="title_products_new text-center font-weight-bold pb-4">SẢN PHẨM MỚI</h4>
+            <h4 class="title_products text-center font-weight-bold pb-4">SẢN PHẨM MỚI</h4>
             <!-- Sản phẩm -->
             <div class="products_item">
                 <div class="row">
@@ -156,6 +157,7 @@
             </div>
             <!-- Kết thúc sản phẩm -->
         </div>
+    </div>
     </div>
 </body>
 

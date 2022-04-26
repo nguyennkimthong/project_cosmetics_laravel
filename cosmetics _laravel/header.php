@@ -121,7 +121,7 @@
       </div>
     </div>
     <!-- Menu -->
-    <div class="w3-bar w3-white font-weight-bold d-flex justify-content-center mt-4">
+    <div class="w3-bar w3-white font-weight-bold d-flex justify-content-center mt-4 pb-2">
       <div class="w3-dropdown-hover w3-mobile">
           <button class="w3-button">CHĂM SÓC DA <i class="fa fa-caret-down"></i></button>
           <div class="w3-dropdown-content w3-bar-block w3-white font-weight-normal w3-large">

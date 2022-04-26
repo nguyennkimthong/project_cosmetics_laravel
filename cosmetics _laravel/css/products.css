@@ -1,6 +1,7 @@
 .title_products {
     font-size: 26px;
     color: #000;
+    line-height: 25px;
 }
 
 a.products_name {
@@ -14,8 +15,12 @@ a.products_name {
 a.products_name:hover {
     text-decoration: none;
     color: #000;
-}   
+}
 
-.products{
+.products {
     border-bottom: 1px dashed #DDDDDD;
+}
+
+p.title_customer {
+    margin-top: -20px;
 }
