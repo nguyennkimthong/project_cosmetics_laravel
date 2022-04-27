@@ -20,11 +20,11 @@
                 <h4 class="title_news">
                     <a href="#">BÍ MẬT ĐẰNG SAU NHỮNG CHIẾC MẶT NẠ GIẤY</a>
                 </h4>
-                <div class="nav bg-white ">
-                    <span class="">A </span>
-                    <p>Lượt xem:34 </p>
-                    <span class="">B </span>
-                    <p>Ngày đăng: 01 - 02 - 2018</p>
+                <div class="nav bg-white pb-2 ">
+                    <span class=""><i class="fa fa-eye"></i> </span>
+                    <span>Lượt xem: 34</span>
+                    <span class=""><i class="fa fa-calendar-check-o"></i> </span>
+                    <span>Ngày đăng: 01-02-2018</span>
                 </div>
                 <p class="mt-3">Trong khoảng 5 năm trở lại đây, măt nạ giấy đang ngày càng được những tín đồ làm đẹp ưa
                     chuộng nhờ...</p>
@@ -34,29 +34,34 @@
                 <h4 class="title_news">
                     <a href="#">PHONG CÁCH TRANG ĐIỂM MÙA XUÂN HÚT MẮT</a>
                 </h4>
-                <div class="nav bg-white ">
-                    <span class="">A </span>
-                    <p>Lượt xem:34 </p>
-                    <span class="">B </span>
-                    <p>Ngày đăng: 01 - 02 - 2018</p>
+                <div class="nav bg-white pb-2 ">
+                    <span class=""><i class="fa fa-eye"></i> </span>
+                    <span>Lượt xem: 34</span>
+                    <span class=""><i class="fa fa-calendar-check-o"></i> </span>
+                    <span>Ngày đăng: 01-02-2018</span>
                 </div>
-                <p class="mt-3">Trang điểm theo phong cách Hàn Quốc như một làn gió mát thổi vào ngành công nghiệp làm đẹp trên toàn châu Á nói riêng và thế giới nói chung. Từ khắp các ngõ phố đến sàn diễn thời trang chuyên nghiệp, ở bất cứ nơi đâu phong cách trang điểm tự nhiên mà đầy lôi cuốn này cũng được nhiệt liệt đón chào.</p>
+                <p class="mt-3">Trang điểm theo phong cách Hàn Quốc như một làn gió mát thổi vào ngành công nghiệp làm
+                    đẹp trên toàn châu Á nói riêng và thế giới nói chung. Từ khắp các ngõ phố đến sàn diễn thời trang
+                    chuyên nghiệp, ở bất cứ nơi đâu phong cách trang điểm tự nhiên mà đầy lôi cuốn này cũng được nhiệt
+                    liệt đón chào.</p>
             </div>
             <div class="col-4">
                 <a href="#"><img src="images/images_news/image_news_3.jpg" alt="" width="100%"></a>
                 <h4 class="title_news">
                     <a href="#">LÃO HÓA DA KHÔNG NHƯ CHÚNG TA NGHĨ</a>
                 </h4>
-                <div class="nav view bg-white ">
-                    <span class="">A </span>
-                    <p>Lượt xem:34 </p>
-                    <span class="">B </span>
-                    <p>Ngày đăng: 01 - 02 - 2018</p>
+                <div class="nav view bg-white pb-2 ">
+                    <span class=""><i class="fa fa-eye"></i> </span>
+                    <span>Lượt xem: 34</span>
+                    <span class=""><i class="fa fa-calendar-check-o"></i> </span>
+                    <span>Ngày đăng: 01-02-2018</span>
                 </div>
-                <p class="mt-3"> Đứng đầu danh sách các kẻ thù của làn da chính là ánh nắng mặt trời. Bởi các tia cực tím trong ánh nắng sẽ ...</p>
+                <p class="mt-3"> Đứng đầu danh sách các kẻ thù của làn da chính là ánh nắng mặt trời. Bởi các tia cực
+                    tím trong ánh nắng sẽ ...</p>
             </div>
         </div>
     </div>
+    <hr>
 </body>
 
 </html>

@@ -17,8 +17,8 @@ h4.title_news{
 .nav{
     border-bottom: 1px dashed #DDDDDD;
 }
-div.nav .view{
-    padding: 5px 0 0px;
-    line-height: normal!important;
+span{
+    padding-right: 10px;
+    opacity: 0.8;
 }
     

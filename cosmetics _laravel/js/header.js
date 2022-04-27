@@ -3,3 +3,4 @@ $(".btn").click(function(){
     $(this).toggleClass("animate");
     $(".input").val("");
   });
+

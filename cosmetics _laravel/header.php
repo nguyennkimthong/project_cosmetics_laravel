@@ -34,7 +34,7 @@
   </head>
   <body>
     <!-- Liên hệ, đăng nhập, đăng ký, tra cứu đơn hàng -->
-    <div class="nav">
+    <div class="nav border-bottom-0">
       <div class="contactnav">
         <span class="hidden-sp hidden-xs">
           <i class="fas fa-envelope"> contact@nhanh.vn </i>
@@ -64,7 +64,7 @@
       </div>
     </div>
     <!-- Tên thương hiệu -->
-    <div class="header-main">
+    <div class="header-main mb-4">
       <div class="header-wrap">
         <div class="header-left">
           <div class="header_logo">
@@ -121,10 +121,10 @@
       </div>
     </div>
     <!-- Menu -->
-    <div class="w3-bar w3-white font-weight-bold d-flex justify-content-center mt-4 pb-2">
+    <div class="w3-bar w3-white font-weight-bold d-flex justify-content-center pb-2" id="menu_header">
       <div class="w3-dropdown-hover w3-mobile">
           <button class="w3-button">CHĂM SÓC DA <i class="fa fa-caret-down"></i></button>
-          <div class="w3-dropdown-content w3-bar-block w3-white font-weight-normal w3-large">
+          <div class="w3-dropdown-content w3-bar-block w3-white font-weight-normal w3-font">
             <a href="#" class="w3-bar-item w3-button w3-mobile">Dưỡng da</a>
             <a href="#" class="w3-bar-item w3-button w3-mobile">Làm sạch da</a>
             <a href="#" class="w3-bar-item w3-button w3-mobile">Mask - mặt nạ</a>
@@ -134,7 +134,7 @@
       <a href="#" class="w3-bar-item w3-button w3-mobile">NƯỚC HOA</a>
       <div class="w3-dropdown-hover w3-mobile">
         <button class="w3-button">PHỤ KIỆN <i class="fa fa-caret-down"></i></button>
-        <div class="w3-dropdown-content w3-bar-block w3-white font-weight-normal w3-large">
+        <div class="w3-dropdown-content w3-bar-block w3-white font-weight-normal w3-font">
           <a href="#" class="w3-bar-item w3-button w3-mobile">Dụng cụ trang điểm</a>
           <a href="#" class="w3-bar-item w3-button w3-mobile">Phụ kiện làm đẹp</a>
         </div>
@@ -142,6 +142,7 @@
       <a href="#" class="w3-bar-item w3-button w3-mobile">KHUYẾN MÃI</a>
       <a href="#" class="w3-bar-item w3-button w3-mobile">TIN TỨC</a>
     </div>
+    <script src="js/sticky_navbar.js"></script>
     <script src="js/header.js"></script>
   </body>
 </html>
