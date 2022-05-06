@@ -69,7 +69,7 @@
         <div class="header-left">
           <div class="header_logo">
             <h1>
-              <a href="#">
+              <a href="index.php">
                 <img src="images/image_title/YAPPUNI.png" alt="" />
               </a>
             </h1>
@@ -125,7 +125,7 @@
       <div class="w3-dropdown-hover w3-mobile">
           <button class="w3-button">CHĂM SÓC DA <i class="fa fa-caret-down"></i></button>
           <div class="w3-dropdown-content w3-bar-block w3-white font-weight-normal w3-font">
-            <a href="#" class="w3-bar-item w3-button w3-mobile">Dưỡng da</a>
+            <a href="category.php" class="w3-bar-item w3-button w3-mobile">Dưỡng da</a>
             <a href="#" class="w3-bar-item w3-button w3-mobile">Làm sạch da</a>
             <a href="#" class="w3-bar-item w3-button w3-mobile">Mask - mặt nạ</a>
           </div>
@@ -140,7 +140,7 @@
         </div>
       </div>
       <a href="#" class="w3-bar-item w3-button w3-mobile">KHUYẾN MÃI</a>
-      <a href="#" class="w3-bar-item w3-button w3-mobile">TIN TỨC</a>
+      <a href="news.php" class="w3-bar-item w3-button w3-mobile">TIN TỨC</a>
     </div>
     <script src="js/sticky_navbar.js"></script>
     <script src="js/header.js"></script>

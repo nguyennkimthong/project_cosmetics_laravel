@@ -6,24 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
-    <link rel="stylesheet" href="../Home/css/header/header.css">
-    <link rel="stylesheet" href="../Home/css/header/menu.css">
-    <link rel="stylesheet" href="../Category/css/category.css">
-    <link rel="stylesheet" href="../Home/css/products.css">
-    <link rel="stylesheet" href="../Home/css/footer.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Tin tức</title>
 </head>
 
 <body>
-    <?php include_once "../Home/header.php" ?>
+    <?php include_once "header.php" ?>
+    <!-- banner  -->
     <div class="banner_category mb-5">
         <div class="fuild-container">
             <div class="banner">
                 <h4 class="text-uppercase text-center image_banner">Trang chủ > Tin tức</h4>
-                <img src="../Category/images/image_category_skin.jpg" alt="" width="100%" height="150px">
+                <img src="images/images_category_skin/image_category_skin.jpg" alt="" width="100%" height="150px">
             </div>
         </div>
     </div>
+    <!-- End banner -->
     <div class="container">
         <div class="content_news d-flex">
             <div class="col-lg-9">
@@ -32,12 +32,12 @@
                 <div class="products_item">
                     <div class="row">
                         <div class="col-lg-4">
-                            <a href="#">
-                                <img src="../Home/images/images_news/image_news_1.jpg" alt="image_hot_1" width="100%">
+                            <a href="detailNews.php">
+                                <img src="images/images_news/image_news_1.jpg" alt="image_hot_1" width="100%">
                             </a>
                             <div class="products_meta text-center">
                                 <h5 class="name">
-                                    <a class="products_name text-center" href="#" title="Tinh chất dưỡng chống lão hóa da Eco
+                                    <a class="products_name text-center" href="detailNews.php" title="Tinh chất dưỡng chống lão hóa da Eco
                                     Science Serum">Trong khoảng 5 năm trở lại đây, măt nạ giấy đang ngày càng được
                                         những tín đồ làm đẹp ưa chuộng nhờ......</a>
                                 </h5>
@@ -45,7 +45,7 @@
                         </div>
                         <div class="col-lg-4">
                             <a href="#">
-                                <img src="../Home/images/images_news/image_news_2.jpg" alt="image_hot_2" width="100%">
+                                <img src="images/images_news/image_news_2.jpg" alt="image_hot_2" width="100%">
                             </a>
                             <div class="products_meta text-center">
                                 <h5 class="name">
@@ -59,7 +59,7 @@
                         </div>
                         <div class="col-lg-4">
                             <a href="#">
-                                <img src="../Home/images/images_news/image_news_3.jpg" alt="image_hot_3" width="100%">
+                                <img src="images/images_news/image_news_3.jpg" alt="image_hot_3" width="100%">
                             </a>
                             <div class="products_meta text-center">
                                 <h5 class="name">

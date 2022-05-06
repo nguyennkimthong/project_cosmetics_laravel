@@ -5,22 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Home/css/header/header.css">
-    <link rel="stylesheet" href="../Home/css/header/menu.css">
+
     <link rel="stylesheet" href="css/category.css">
-    <link rel="stylesheet" href="../Home/css/products.css">
-    <link rel="stylesheet" href="../Home/css/footer.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Danh mục sản phẩm</title>
 </head>
 
 <body>
     <!-- Import header -->
-    <?php include_once "../Home/header.php" ?>
+    <?php include_once "header.php" ?>
     <div class="banner_category mb-5">
         <div class="fuild-container">
             <div class="banner">
                 <h4 class="text-uppercase text-center image_banner">Trang chủ > Dưỡng da</h4>
-                <img src="images/image_category_skin.jpg" alt="" width="100%" height="150px">
+                <img src="images/images_category_skin/image_category_skin.jpg" alt="" width="100%" height="150px">
             </div>
         </div>
     </div>
@@ -51,7 +50,7 @@
                                 <div class="row">
                                     <div class="col-lg-3">
                                         <a href="#">
-                                            <img src="../Home/images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_1.jpg"
+                                            <img src="images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_1.jpg"
                                                 alt="image_hot_1" width="100%">
                                         </a>
                                         <div class="products_meta text-center">
@@ -67,7 +66,7 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <a href="#">
-                                            <img src="../Home/images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_2.jpg"
+                                            <img src="images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_2.jpg"
                                                 alt="image_hot_2" width="100%">
                                         </a>
                                         <div class="products_meta text-center">
@@ -84,7 +83,7 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <a href="#">
-                                            <img src="../Home/images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_3.jpg"
+                                            <img src="images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_3.jpg"
                                                 alt="image_hot_3" width="100%">
                                         </a>
                                         <div class="products_meta text-center">
@@ -101,7 +100,7 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <a href="#">
-                                            <img src="../Home/images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_4.jpg"
+                                            <img src="images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_4.jpg"
                                                 alt="image_hot_4" width="100%">
                                         </a>
                                         <div class="products_meta text-center">
@@ -124,7 +123,7 @@
                                 <div class="row">
                                     <div class="col-lg-3">
                                         <a href="#">
-                                            <img src="../Home/images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_1.jpg"
+                                            <img src="images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_1.jpg"
                                                 alt="image_hot_1" width="100%">
                                         </a>
                                         <div class="products_meta text-center">
@@ -140,7 +139,7 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <a href="#">
-                                            <img src="../Home/images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_2.jpg"
+                                            <img src="images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_2.jpg"
                                                 alt="image_hot_2" width="100%">
                                         </a>
                                         <div class="products_meta text-center">
@@ -157,7 +156,7 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <a href="#">
-                                            <img src="../Home/images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_3.jpg"
+                                            <img src="images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_3.jpg"
                                                 alt="image_hot_3" width="100%">
                                         </a>
                                         <div class="products_meta text-center">
@@ -174,7 +173,7 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <a href="#">
-                                            <img src="../Home/images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_4.jpg"
+                                            <img src="images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_4.jpg"
                                                 alt="image_hot_4" width="100%">
                                         </a>
                                         <div class="products_meta text-center">

@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <?php include_once "header.php" ?>
     <div class="fuild-container banner-container">
         <div class="arrow arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
         <img src="images/images_banner/image_banner_1.png"

@@ -5,22 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Home/css/header/header.css">
-    <link rel="stylesheet" href="../Home/css/header/menu.css">
-    <link rel="stylesheet" href="../Category/css/category.css">
-    <link rel="stylesheet" href="../Home/css/products.css">
-    <link rel="stylesheet" href="../Home/css/footer.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/detailProducts.css">
     <title>Chi tiết sản phẩm</title>
 </head>
 
 <body>
-    <?php include_once "../Home/header.php" ?>
+    <?php include_once "header.php" ?>
     <div class="banner_category mb-5">
         <div class="fuild-container">
             <div class="banner">
                 <h4 class="text-uppercase text-center image_banner">Trang chủ > Dưỡng da</h4>
-                <img src="../Category/images/image_category_skin.jpg" alt="" width="100%" height="150px">
+                <img src="images/images_category_skin/image_category_skin.jpg" alt="" width="100%" height="150px">
             </div>
         </div>
     </div>
@@ -30,7 +28,7 @@
             <div class="col-5">
                 <div class="image-detail">
                     <a href="#">
-                        <img src="../Home/images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_1.jpg"
+                        <img src="images/images_products/images_product_skin/images_products_skin_mask/image_product_skin_1.jpg"
                             alt="" width="100%">
                     </a>
                 </div>
@@ -84,7 +82,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <a href="#">
-                        <img src="../Home/images/images_products/images_product_hot/image_hot_1.jpg" alt="image_hot_1"
+                        <img src="images/images_products/images_product_hot/image_hot_1.jpg" alt="image_hot_1"
                             width="100%">
                     </a>
                     <div class="products_meta text-center">
@@ -100,7 +98,7 @@
                 </div>
                 <div class="col-lg-3">
                     <a href="#">
-                        <img src="../Home/images/images_products/images_product_hot/image_hot_2.jpg" alt="image_hot_2"
+                        <img src="images/images_products/images_product_hot/image_hot_2.jpg" alt="image_hot_2"
                             width="100%">
                     </a>
                     <div class="products_meta text-center">
@@ -116,7 +114,7 @@
                 </div>
                 <div class="col-lg-3">
                     <a href="#">
-                        <img src="../Home/images/images_products/images_product_hot/image_hot_3.jpg" alt="image_hot_3"
+                        <img src="images/images_products/images_product_hot/image_hot_3.jpg" alt="image_hot_3"
                             width="100%">
                     </a>
                     <div class="products_meta text-center">
@@ -132,7 +130,7 @@
                 </div>
                 <div class="col-lg-3">
                     <a href="#">
-                        <img src="../Home/images/images_products/images_product_hot/image_hot_4.jpg" alt="image_hot_4"
+                        <img src="images/images_products/images_product_hot/image_hot_4.jpg" alt="image_hot_4"
                             width="100%">
                     </a>
                     <div class="products_meta text-center">
@@ -151,8 +149,8 @@
         <!-- Kết thúc sản phẩm -->
     </div>
 </body>
-<?php include_once "../Home/footer.php" ?>
-<script src="../Home/js/header.js"></script>
-<script src="../Home/js/sticky_navbar.js"></script>
+<?php include_once "footer.php" ?>
+<script src="js/header.js"></script>
+<script src="js/sticky_navbar.js"></script>
 
 </html>
