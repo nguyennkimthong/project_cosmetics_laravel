@@ -196,9 +196,9 @@
                 </div>
             </div>
         </div>
-        <?php include_once "../Home/footer.php" ?>
-        <script src="../Home/js/header.js"></script>
-        <script src="../Home/js/sticky_navbar.js"></script>
+        <?php include_once "footer.php" ?>
+        <script src="js/header.js"></script>
+        <script src="js/sticky_navbar.js"></script>
 </body>
 
 </html>
